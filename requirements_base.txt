@@ -1,6 +1,6 @@
 --extra-index-url https://download.pytorch.org/whl/cu118
 torch==2.1.0+cu118
-ibis-framework[bigquery]>=9.0.0
+ibis-framework[bigquery]==9.0.0dev
 chex>=0.1.86
 torchvision>=0.16.0+cu118
 torchaudio>=2.1.0+cu118
