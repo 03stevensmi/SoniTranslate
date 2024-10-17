@@ -2,11 +2,10 @@
 nest_asyncio
 --extra-index-url https://download.pytorch.org/whl/cu118
 torch==2.1.0+cu118
-torchvision==0.16.0+cu118
-torchaudio==2.1.0+cu118
-ibis-framework[bigquery]==9.2.0
-chex==0.1.86
-numpy==1.24
+torchvision>=0.16.0+cu118
+torchaudio>=2.1.0+cu118
+ibis-framework[bigquery]>=9.2.0,<=9.1.5
+chex>=0.1.86
 yt-dlp
 gradio
 pydub==0.25.1
@@ -15,11 +14,11 @@ deep_translator==1.11.4
 git+https://github.com/m-bain/whisperX.git@a5dca2c
 gTTS
 gradio_client
-praat-parselmouth==0.4.3
+praat-parselmouth>=0.4.3
 pyworld==0.3.2
 faiss-cpu==1.7.3
 torchcrepe==0.0.20
-ffmpeg-python==0.2.0
+ffmpeg-python>=0.2.0
 git+https://github.com/facebookresearch/fairseq.git@refs/pull/5359/merge
 gdown
 rarfile
