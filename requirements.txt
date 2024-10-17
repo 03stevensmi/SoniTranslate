@@ -4,7 +4,7 @@ nest_asyncio
 torch==2.1.0+cu118
 torchvision>=0.16.0+cu118
 torchaudio>=2.1.0+cu118
-ibis-framework[bigquery]==9.0.0dev
+ibis-framework[bigquery]==9.0.0dev*
 chex>=0.1.86
 yt-dlp
 gradio
